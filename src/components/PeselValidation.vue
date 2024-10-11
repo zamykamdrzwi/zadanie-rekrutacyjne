@@ -10,7 +10,7 @@ const validatePesel = () => {
   isPeselValid.value = null
 
   if (!/^\d{11}$/.test(pesel.value)) {
-    errorMessage.value = 'PESEL musi składać się z dokładnie 11 cyfr.'
+    errorMessage.value = 'PESEL jest nie poprawny'
     return
   }
 
